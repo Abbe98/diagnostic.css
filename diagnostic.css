@@ -1,4 +1,4 @@
-applet:after, basefont:after, center:after, dir:after, font:after, isindex:after, menu:after, s:after, strike:after, u:after, 
+applet:after, basefont:after, center:after, dir:after, font:after, hgroup:after, isindex:after, menu:after, s:after, strike:after, u:after, 
 *[background]:after, *[bgcolor]:after, *[clear]:after, *[color]:after, *[compact]:after, *[noshade]:after, *[nowrap]:after, *[size]:after, 
 *[start]:after, *[bottommargin]:after, *[leftmargin]:after, *[rightmargin]:after, *[topmargin]:after, *[marginheight]:after, *[marginwidth]:after, 
 *[alink]:after, *[link]:after, *[text]:after, *[vlink]:after, *[align]:after, *[valign]:after, *[hspace]:after, *[vspace]:after, *[height]:after, 
@@ -24,7 +24,7 @@ table table:after
 }
 
 /* Deprecated Elements - cannot be overridden by user styles */
-applet:after, basefont:after, center:after, dir:after, font:after, isindex:after, menu:after, s:after, strike:after, u:after {
+applet:after, basefont:after, center:after, dir:after, font:after, hgroup:after, isindex:after, menu:after, s:after, strike:after, u:after {
     content: 'ERROR: Deprecated elements found. They cannot be overridden by user styles' !important;
 }
 
